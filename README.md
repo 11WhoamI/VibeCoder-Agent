@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/2184b0a0-c0c0-4b60-8a6c-aa095a322722
 ### 1. 环境依赖
 `bash`
 pip install openai gradio
-# 请确保本地已安装并启动 Docker Desktop
+请确保本地已安装并启动 Docker Desktop
 docker pull python:3.10-slim
 `
 
