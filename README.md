@@ -27,17 +27,19 @@ https://github.com/user-attachments/assets/2184b0a0-c0c0-4b60-8a6c-aa095a322722
 ## 🚀 快速启动 (Quick Start)
 
 ### 1. 环境依赖
-```bash
+`
 pip install openai gradio
-请确保本地已安装并启动 Docker Desktop
+`\
+请确保本地已安装并启动 Docker Desktop\
+`
 docker pull python:3.10-slim
-
+`
 
 ### 2. 配置模型接口
 启动本地或远程的 vLLM 服务，确保兼容 OpenAI API 标准。在 `web_ui.py` 中修改 `AUTODL_API_BASE` 为你的实际地址。
 
 ### 3. 运行引擎
-`bash`
+`
 python web_ui.py
 `
 启动后，访问 `http://127.0.0.1:7860` 即可进入 VibeCoder 控制台。
